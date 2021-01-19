@@ -10,7 +10,6 @@ btn.addEventListener("click", function () {
     P.innerHTML = 0;
   } else {
     P.innerHTML = word.split(" ").length;
-    console.log(word.split(" ").length);
   }
 
   icon2.classList.remove("second-icon-show");
